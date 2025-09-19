@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/Backend/Java/Webservlet/HolaMundo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Backend/Java/Webservlet/formulario" vcs="Git" />
+  </component>
+</project>
