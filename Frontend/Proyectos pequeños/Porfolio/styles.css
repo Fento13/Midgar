@@ -1,0 +1,19 @@
+body {
+    background-color: blueviolet;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: medium;
+    font-style: normal;
+    width: auto;
+    height: auto;
+    display: flexbox;
+
+}
+
+header {
+    background-color: rgb(182, 124, 236);
+
+}
+
+main {
+    border-top: 10%;
+}
