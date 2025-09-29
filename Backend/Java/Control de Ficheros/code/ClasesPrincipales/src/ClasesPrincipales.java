@@ -8,6 +8,7 @@ import java.io.IOException;
 public class ClasesPrincipales {
     public static void main(String[] args) {
         try {
+            //Crear Achivo
             File f = new File("ejemplo.txt");
             // Comprobar si el archivo existe
             System.out.println("¿Existe el archivo? " + f.exists());

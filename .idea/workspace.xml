@@ -4,19 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb740f40-8e13-47aa-923b-09fe051d34aa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Backend/Java/POO/Interfaces/EjemploInterfaz/src/EjemploInterfaz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Desktop.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="fb740f40-8e13-47aa-923b-09fe051d34aa" name="Changes" comment="25-09-2025">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Java/Webservlet/ejemploservlet/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Java/Webservlet/ejemploservlet/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Java/Webservlet/ejemploservlet/src/main/webapp/formulario.html" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Java/Webservlet/ejemploservlet/src/main/webapp/formulario.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Java/Webservlet/ejemploservlet/target/ejemploservlet/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Java/Webservlet/ejemploservlet/target/ejemploservlet/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IDEs/IntelliJ IDEA Community Edition 2025.2.1.lnk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IDEs/netbeans.lnk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Java/Control de Ficheros/code/ClasesPrincipales/src/ClasesPrincipales.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Java/Control de Ficheros/code/ClasesPrincipales/src/ClasesPrincipales.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Java/CosasDeClase/Ejercicios/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Java/CosasDeClase/Ejercicios/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Java/CosasDeClase/Ejercicios/src/PiedraPapelTijera.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/EjemploXML.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/HTML-CSS/CSS/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/Proyectos pequeños/Porfolio/HTML CSS/instagram.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/Proyectos pequeños/Porfolio/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/Proyectos pequeños/Porfolio/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/Proyectos pequeños/Porfolio/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/Proyectos pequeños/Porfolio/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/XML/Ejercicio2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/XML/file.dtd" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +27,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="33C5r1F7YYkcVtJkHO95rwIIUyU" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -40,7 +41,15 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
+    "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/javie/Desktop/DAW",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -48,6 +57,7 @@
     <attachedChunks>
       <set>
         <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.26199.169" />
+        <option value="bundled-js-predefined-d6986cc7102b-9c94529fcfe0-JavaScript-IU-252.26199.169" />
       </set>
     </attachedChunks>
   </component>
@@ -59,10 +69,33 @@
       <option name="presentableId" value="Default" />
       <updated>1758808409678</updated>
       <workItem from="1758808423923" duration="80000" />
+      <workItem from="1758808742857" duration="2435000" />
+      <workItem from="1758901252179" duration="656000" />
     </task>
+    <task id="LOCAL-00001" summary="25-09-2025">
+      <option name="closed" value="true" />
+      <created>1758808895507</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1758808895507</updated>
+    </task>
+    <task id="LOCAL-00002" summary="25-09-2025">
+      <option name="closed" value="true" />
+      <created>1758810307678</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1758810307678</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="25-09-2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="25-09-2025" />
   </component>
 </project>
