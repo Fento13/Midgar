@@ -5,19 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb740f40-8e13-47aa-923b-09fe051d34aa" name="Changes" comment="25-09-2025">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Java/Control de Ficheros/code/ClasesPrincipales/src/ClasesPrincipales.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Java/Control de Ficheros/code/ClasesPrincipales/src/ClasesPrincipales.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Java/CosasDeClase/Ejercicios/.vscode/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Java/CosasDeClase/Ejercicios/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Java/CosasDeClase/Ejercicios/src/PiedraPapelTijera.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/EjemploXML.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/HTML-CSS/CSS/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/Proyectos pequeños/Porfolio/HTML CSS/instagram.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/Proyectos pequeños/Porfolio/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/Proyectos pequeños/Porfolio/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/Proyectos pequeños/Porfolio/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/Proyectos pequeños/Porfolio/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/XML/Ejercicio2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/XML/file.dtd" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/Java/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/Java/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Java/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Java/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Java/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Java/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Java/JSP-Servlet/EjemploServlet/src/main/java/org/servletsjsp/HolaServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Java/JSP-Servlet/EjemploServlet/src/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Java/JSP-Servlet/EjemploServlet/src/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Java/Swing/EjemploSwing/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Java/Swing/EjemploSwing/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Java/Swing/EjemploSwing/src/JFrameExample.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,24 +32,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/javie/Desktop/DAW",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/javie/Desktop/DAW&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -71,6 +68,7 @@
       <workItem from="1758808423923" duration="80000" />
       <workItem from="1758808742857" duration="2435000" />
       <workItem from="1758901252179" duration="656000" />
+      <workItem from="1759310994575" duration="597000" />
     </task>
     <task id="LOCAL-00001" summary="25-09-2025">
       <option name="closed" value="true" />
