@@ -1,0 +1,57 @@
+body 
+{
+    background-image: url("./icons/magical-forest-1920-x-1080-background-3rqq66qr0zvfx9xj.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+}
+
+header
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    height: 40px;
+    background-color: rgba(0, 128, 0, 0.00001); /* Verde translúcido */
+    backdrop-filter: blur(5px);             /* Desenfoque mágico *//
+}
+
+header > a 
+{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+header > a:hover {
+    font-size: large;
+    color: lightgreen;
+    transition: 100ms;
+}
+
+main
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(234, 60, 13);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+
+}
+main > h1{
+    align-items: center;
+    text-align: center;
+}
+footer
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    
+}
+
