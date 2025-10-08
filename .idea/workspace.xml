@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb740f40-8e13-47aa-923b-09fe051d34aa" name="Changes" comment="25-09-2025">
-      <change afterPath="$PROJECT_DIR$/Backend/Java/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/Java/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Java/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Java/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Java/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Java/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Java/JSP-Servlet/EjemploServlet/src/main/java/org/servletsjsp/HolaServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Java/JSP-Servlet/EjemploServlet/src/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Java/JSP-Servlet/EjemploServlet/src/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Java/Swing/EjemploSwing/.vscode/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Java/Swing/EjemploSwing/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Java/Swing/EjemploSwing/src/JFrameExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IDEs/IntelliJ IDEA 2025.2.2.lnk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IDEs/netbeans.lnk" beforeDir="false" afterPath="$PROJECT_DIR$/IDEs/netbeans.lnk" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +30,7 @@
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Java&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/javie/Desktop/DAW&quot;,
@@ -50,14 +43,6 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.26199.169" />
-        <option value="bundled-js-predefined-d6986cc7102b-9c94529fcfe0-JavaScript-IU-252.26199.169" />
-      </set>
-    </attachedChunks>
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="fb740f40-8e13-47aa-923b-09fe051d34aa" name="Changes" comment="" />
