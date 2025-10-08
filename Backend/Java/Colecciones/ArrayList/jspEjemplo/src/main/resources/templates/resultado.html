@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Resultado</title>
+    <link rel="stylesheet" th:href="@{/style.css}" />
+    <script th:src="@{/script.js}"></script>
+</head>
+<body>
+<div class="container">
+    <h1>🎉 ¡Hola, <span th:text="${nombre}" class="animate-text">Nombre</span>!</h1>
+    <a th:href="@{/}">🔙 Volver al formulario</a>
+</div>
+</body>
+</html>
