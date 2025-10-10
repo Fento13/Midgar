@@ -5,13 +5,28 @@
     <link rel="stylesheet" th:href="@{/style.css}" />
     <script th:src="@{/script.js}"></script>
 </head>
-<script>
+    <script>
         window.onload = function() {
-        let ancho = window.innerWidth;
-        let alto = window.innerHeight;
-        document.getElementById('pantalla').textContent =
-        'Ancho: ' + ancho + 'Alto: ' + alto;
-        //Enviar estos datos al backent
+      let ancho = window.innerWidth;
+      let alto = window.innerHeight;
+      document.getElementById('wrapper').textContent =
+          'Ancho: ' + ancho + ' Alto: ' + alto;
+
+      fetch('/recibirPantalla', {
+          method: 'POST',
+          headers: {
+              'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({ ancho: ancho, alto: alto })
+      })
+      .then(response => response.json())
+      .then(data => {
+          console.log('Respuesta del Backend:', data);
+      })
+      .catch(error => {
+          console.error('Error al enviar datos', error);
+      });
+  }
 </script>
 <body class="main-bg">
     <div class="wrapper">
