@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Femto Mangas</title>
+    <link rel="stylesheet" th:href="@{/style.css}" />
+    <script th:src="@{/script.js}"></script>
+</head>
+<script>
+        window.onload = function() {
+        let ancho = window.innerWidth;
+        let alto = window.innerHeight;
+        document.getElementById('pantalla').textContent =
+        'Ancho: ' + ancho + 'Alto: ' + alto;
+        //Enviar estos datos al backent
+</script>
+<body class="main-bg">
+    <div class="wrapper">
+    <header>
+        <!--logo, menu, biblioteca, buscador y login/  -->
+        <p>Visitas en esta sesión: <span th:text="${visitas}"></span></p>
+    </header>
+        <main>
+            <!--Social, Visto Recientemente, últimas actualizaciones, capitulos populares, mangas populares -->
+        </main>
+    </div>
+</body>
+</html>
