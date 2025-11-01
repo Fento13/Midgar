@@ -122,10 +122,34 @@ PRUEBA*/
         System.out.println("Ingrese la segunda cadena (C2):");
         c2 = sc.nextLine();
 
-        if (c1.contains(c2)) {
+        if (c2.contains(c1)) {
             System.out.println("'" + c1 + "' está contenido en '" + c2 + "'");
         }else {
             System.out.println("'" + c1 + "' NO está contenido en '" + c2 + "'");
         }
+    }
+
+    public static void Ejercicio11() {
+        /*1. Haz un programa que, dada una cadena, muestre su pirámide. Por ejemplo: para la cadena "PRUEBA" sería:
+
+P
+PR
+PRU
+PRUE
+PRUEB
+PRUEBA */
+
+        String cadena;
+        System.out.println("Ingrese una cadena de texto:");
+        cadena = sc.nextLine();
+
+        for (int i = 0; i < cadena.length(); i++) {
+            System.out.println(cadena.substring(0, i + 1).toUpperCase());
+        }
+    }
+
+
+    public static void Ejercicio12() {
+        /**/
     }
 }
