@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Ejercicios {
@@ -163,43 +164,24 @@ public class Ejercicios {
 
     public static void Ejercicio12() {
         /*
-5. Haz un programa que pida al usuario una cadena y nos diga si cumple o no este formato:
-     - Tiene 8 caracteres de longitud
-     - Los 4 primeros caracteres son letras mayúsculas
-     - Los 3 últimos caracteres son dígitos
-     - El 5º carácter es un guion
-*/
+         * 5. Haz un programa que pida al usuario una cadena y nos diga si cumple o no
+         * este formato:
+         * - Tiene 8 caracteres de longitud
+         * - Los 4 primeros caracteres son letras mayúsculas
+         * - Los 3 últimos caracteres son dígitos
+         * - El 5º carácter es un guion
+         */
 
         String cadena;
         System.out.println("Ingrese una cadena de texto:");
         cadena = sc.nextLine();
 
-        if (cadena.length() == 8){
-            if (cadena.matches("^[A-Z]{4}-[0-9]{3}$")){
+        if (cadena.length() == 8) {
+            if (cadena.matches("^[A-Z]{4}-[0-9]{3}$")) {
                 System.out.println("La cadena cumple el formato requerido.");
             } else {
                 System.out.println("La cadena NO cumple el formato requerido.");
             }
         }
-    }
-
-    public static void EjercicioArrays() {
-        int[] Numeros = {34, 12, 5, 67, 23, 89, 2};
-
-            //numeroBajo y numeroAlto toman el valor del primer elemento del array
-            numeroBajo = numeroAlto = Numeros[0];
-            //como el 0 ya ha sido evaluado, empezamos en el 1
-
-        for (int i = 1; i < Numeros.length; i++) {
-            int numeroBajo, numeroAlto;
-            
-            if (Numeros[i] < numeroBajo) {
-                numeroBajo = Numeros[i];
-            }else if (numeroAlto  < Numeros[i]) {
-                numeroAlto = Numeros[i];
-                
-            }
-
-            System.out.println("El numero mas bajo es: " + numeroBajo + " y el numero mas alto es: " + numeroAlto + "de" + Arrays.toString(Numeros));
     }
 }
