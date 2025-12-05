@@ -18,11 +18,9 @@ public class Enunciado2 {
 
     System.out.println("----------------------------------------------");        
         for (int i = mitad; i < matriz.length;  i++) {
-            for (int j = 0; j < matriz[i].length; j++) {
-               if (matriz[i].length > mitad) {
+            for (int j = 0; j <= i; j++) {
                 //cambiar el valor de true a false y viceversa
                 matriz[i][j] = !matriz[i][j];
-               }
                
             }
         }

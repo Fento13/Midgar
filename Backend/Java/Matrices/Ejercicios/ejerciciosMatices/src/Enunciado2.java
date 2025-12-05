@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
-public class App {
+public class Enunciado2 {
     public static void main(String[] args) {
         Ejercicio2();
     }

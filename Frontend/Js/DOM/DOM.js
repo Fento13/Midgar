@@ -21,3 +21,6 @@ document.body.appendChild(nuevoParrafo);
 
 //Eliminar elemento
 document.body.removeChild(nuevoParrafo);
+
+alert(8);
+window.alert(8);
