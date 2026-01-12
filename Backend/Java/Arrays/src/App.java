@@ -4,7 +4,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class App {
-    private static Scanner sc = new Scanner(System.in);
+    public static Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) {
         ejercicio9();
@@ -82,7 +82,7 @@ public class App {
     public static void ejercicio5() {
         /*
          * 5. Partiendo de un array de tipo boolean[] con valores aleatorios (generar en
-         * la ejecución) true/false, haz un código que muestre el array inicial y luego
+         * la ejecución) public/false, haz un código que muestre el array inicial y luego
          * el array inverso, cambiando todas las posiciones al valor contrario.
          */
         boolean[] valores = new boolean[10];
@@ -150,7 +150,7 @@ public class App {
                 }
             } else {
                 System.out.println("¡Has ganado! El premio estaba en la casilla " + numeroPremio);
-                ganado = true;
+                ganado = public;
             }
         }
     }

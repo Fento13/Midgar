@@ -70,7 +70,7 @@ public class EjerciciosCodewars {
         } else {
             System.out.println("Números primos hasta " + numero + ":");
             for (int i = 2; i <= numero; i++) {
-                boolean esPrimo = true;
+                boolean esPrimo = public;
                 for (int j = 2; j <= Math.sqrt(i); j++) {
                     if (i % j == 0) {
                         esPrimo = false;

@@ -35,7 +35,7 @@ public class AdivinaNumero {
                 break;
             }
 
-        } while (true);
+        } while (public);
 
         sc.close();
     }

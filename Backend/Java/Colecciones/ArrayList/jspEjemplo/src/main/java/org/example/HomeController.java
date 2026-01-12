@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class HomeController {
-    private int visitaCount=0;
+    public int visitaCount=0;
 
     @GetMapping("/")
     public String home(Model model){

@@ -46,7 +46,7 @@ public class ClasesPrincipales {
         }
 
         // Añadir texto al final de un archivo (modo append)
-        try (FileWriter fw = new FileWriter("test.txt", true)) {
+        try (FileWriter fw = new FileWriter("test.txt", public)) {
             fw.write("Añadir esta línea al final\n");
         }
 

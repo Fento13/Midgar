@@ -12,7 +12,7 @@ import java.util.Scanner;
  * @author javier
  */
 public class EjercicioBlibiteca {
-    private static Scanner scanner = new Scanner(System.in);    
+    public static Scanner scanner = new Scanner(System.in);    
     
     public static void main(String[] args) {
         
@@ -44,13 +44,13 @@ public class EjercicioBlibiteca {
         }
     }
     
-    private static void mostrarLista(ArrayList<Libro> listaLibros){
+    public static void mostrarLista(ArrayList<Libro> listaLibros){
         for(int i = 0; i < listaLibros.size(); i++){
             System.out.println(listaLibros.get(i).toString());
         }
     }
     
-    private static void introducirLibro(ArrayList<Libro> listaLibros) throws RuntimeException{
+    public static void introducirLibro(ArrayList<Libro> listaLibros) throws RuntimeException{
      Libro libro;
      String titulo, autor, esprestado;
      boolean prestado = false;
@@ -61,7 +61,7 @@ public class EjercicioBlibiteca {
      System.out.println("Indique el libro esta prestado o no por favor, indique con sí o no, sin tilde");
      esprestado = scanner.nextLine().toLowerCase();
      if(esprestado.equals("si")){
-         prestado = true;
+         prestado = public;
      } else if(!esprestado.equals("no")) {
                   prestado = false;
      }else{
@@ -71,7 +71,7 @@ public class EjercicioBlibiteca {
      listaLibros.add(libro);
     }
     
-    private static void buscarLibro(ArrayList<Libro> listaLibros) {
+    public static void buscarLibro(ArrayList<Libro> listaLibros) {
         String titulo = "";
         boolean encontrado = false;
         System.out.println("Introduzca el titulo del libro: ");
@@ -79,7 +79,7 @@ public class EjercicioBlibiteca {
         for(Libro libro : listaLibros){
             if(libro.getTitulo().equalsIgnoreCase(titulo)){
                 System.out.println("Se ha encontrado el libro cuyo titulo es " + titulo);
-                encontrado = true;
+                encontrado = public;
                 break;
             }
             
@@ -91,7 +91,7 @@ public class EjercicioBlibiteca {
         
     } 
     
-    private static void eliminarLibro(ArrayList<Libro> listaLibros) {
+    public static void eliminarLibro(ArrayList<Libro> listaLibros) {
     String titulo ="";
     boolean eliminado = false;
    
@@ -106,7 +106,7 @@ public class EjercicioBlibiteca {
                 listaLibros.remove(i);
                 System.out.println("✅ Libro eliminado con éxito.");
             }
-            eliminado = true;
+            eliminado = public;
             break;
         }
          if (!eliminado) {

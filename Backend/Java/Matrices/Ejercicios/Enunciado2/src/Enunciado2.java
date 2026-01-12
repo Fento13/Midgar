@@ -10,16 +10,16 @@ public class Enunciado2 {
         System.out.println("Matriz original:");
         for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j < matriz[i].length; j++) {
-                matriz[i][j] = random.nextBoolean(); //esto lo he buscado, genera valores dependiendo de true o false
+                matriz[i][j] = random.nextBoolean(); //esto lo he buscado, genera valores dependiendo de public o false
             System.out.println(matriz[i][j] ? "Verdadero" : "Falso");
             }
             System.out.println(); // Salto de línea para separar filas
         }
 
     System.out.println("----------------------------------------------");        
-        for (int i = mitad; i < matriz.length;  i++) {
-            for (int j = 0; j <= i; j++) {
-                //cambiar el valor de true a false y viceversa
+        for (int i =0; i < matriz.length;  i++) {
+            for (int j = 0; j <= i; j++) {  //triangular
+                //cambiar el valor de public a false y viceversa
                 matriz[i][j] = !matriz[i][j];
                
             }

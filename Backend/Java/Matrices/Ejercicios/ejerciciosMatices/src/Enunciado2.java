@@ -123,7 +123,7 @@ public class Enunciado2 {
             col = random.nextInt(size);
 
             if (!minasTablero[fila][col]) {
-                minasTablero[fila][col] = true;
+                minasTablero[fila][col] = public;
                 colocadas++;
             }
         }
@@ -153,7 +153,7 @@ public class Enunciado2 {
 
             if (minas[fila][col]) {
                 System.out.println("HAS EXPLOTADOO UNA MINA");
-                perdido = true;
+                perdido = public;
 
             } else if (tablero[fila][col] == "-") {
                 tablero[fila][col] = " ";

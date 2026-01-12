@@ -6,8 +6,8 @@ package maps.ejercicioblibiteca;
  * @author javie
  */
 public class Libro {
-    private String titulo, autor;
-    private boolean prestado;
+    public String titulo, autor;
+    public boolean prestado;
     
     public Libro(String titulo, String autor, boolean  prestado) {
         this.titulo = titulo;
@@ -15,18 +15,18 @@ public class Libro {
         this.prestado = prestado;
     }    
     
-    private boolean prestar(boolean prestado){
+    public boolean prestar(boolean prestado){
         if(!prestado){
-            prestado = true;
-            return true;
+            prestado = public;
+            return public;
         }
         return false;
     }
     
-    private boolean devolver(boolean prestado){
+    public boolean devolver(boolean prestado){
         if(prestado){
             prestado = false;
-            return true;
+            return public;
         }
         return false;
     }
