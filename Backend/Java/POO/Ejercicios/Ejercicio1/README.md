@@ -1,18 +1,27 @@
-## Getting Started
+# EJERCICIO 1
+*************
+Contexto 
+--------
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Una persona tiene nombre, primer apellid, segundo apellido, DNI y fecha de nacimiento.
 
-## Folder Structure
 
-The workspace contains two folders by default, where:
+Una cuenta bancaria tiene un numero identificativo (cadena de texto), un saldo (puede ser negativo si existen deudas) y una  o varias personas titulares.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+En una cuenta bancaria se puede ingresar dineo, aunque solo será posible si la cantidad a ingresar es mayor que 0.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
-## Dependency Management
+De una cuenta bamcaria se puede retirar dienro, aunque solo será posible si la cantidad a retirar es mayor que 0 y hay saldo suficiente.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+
+Una cuenta bancaria puede hacer una transferencia a otra cuenta bancaria, aunque solo será posible si la cantidad a pasar es mayor a 0 y si hay saldo suficiente.
+
+Aplicacion
+----------
+
+See debe dessarrollar una aplicacion que contnga al menos 3 cuentas y 3 personas que permita:
+- Ver las cuentas disponiibles
+- Ingresar dinero en una cuenta
+- Retirar dinero de una cuenta
+- Enviar dinero a una cuenta a otra

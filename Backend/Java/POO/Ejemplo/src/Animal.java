@@ -61,7 +61,7 @@ public class Animal {
     }
 
     public boolean esAve(int numeroAlas){
-        boolean esAve = (numeroAlas ==2) ? true : false;
+        boolean esAve = (numeroAlas > 0) ? true : false;
         return esAve;
     }
 }
